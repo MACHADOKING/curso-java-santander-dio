@@ -28,5 +28,29 @@ public class Operadores {
         //     resultado = "falso";
         String resultado = a==b ? "Verdadeiro" : "Falso";
         System.out.println(resultado);
+        int numero1 = 1;
+        int numero2 = 2;
+
+        boolean simNao = numero1 == numero2;
+            System.out.println("numeroUm é igual a numeroDois?" + simNao);
+        simNao = numero1 != numero2;
+            System.out.println("numeroUm é igual a numeroDois?" + simNao);
+        simNao = numero1 > numero2;
+            System.out.println("numeroUm é igual a numeroDois?" + simNao);
+        simNao = numero1 < numero2;
+            System.out.println("numeroUm é igual a numeroDois?" + simNao);
+        simNao = numero1 <= numero2;
+            System.out.println("numeroUm é igual a numeroDois?" + simNao);
+        simNao = numero1 >= numero2;
+            System.out.println("numeroUm é igual a numeroDois?" + simNao);
+        if(numero1 < numero2)
+            System.out.println("a nossa condição é verdadeira!");
+        else if(numero1 == numero2)
+            System.out.println("a nossa condição é falsa!");
+        else
+            System.out.println("a nossa condição é falsa!");
+        String nomeUm = "Machado";
+        String nomeDois = new String("Machado");
+            System.out.println(nomeUm.equals(nomeDois));
     }
 }
