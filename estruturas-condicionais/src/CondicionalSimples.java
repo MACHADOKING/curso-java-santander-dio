@@ -6,8 +6,6 @@ public class CondicionalSimples {
         if(valorSolicitado < saldo) {
             saldo = saldo - valorSolicitado;
             System.out.println(saldo);
-        } else {
-            System.out.println("A operação não pode ser executada (Saldo insuficiente)");
         }
     }
 }
