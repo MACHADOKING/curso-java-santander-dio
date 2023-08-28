@@ -1,5 +1,10 @@
 package lanchonete;
 
+import lanchonete.areacliente.Cliente;
+import lanchonete.atendimento.Atendente;
+import lanchonete.atendimento.cozinha.Almoxarife;
+import lanchonete.atendimento.cozinha.Cozinheiro;
+
 public class Estabelecimento {
 	public static void main(String[] args) {
 		Cozinheiro cozinheiro = new Cozinheiro();
@@ -41,7 +46,7 @@ public class Estabelecimento {
 		cliente.pegarPedidoBalcao();
 		
 		//esta ação é muito sigilosa, qua tal ser privada ?
-		cliente.consultarSaldoAplicativo();
+		// cliente.consultarSaldoAplicativo();
 		
 		//já pensou os clientes ouvindo que o gás acabou ?
 		cozinheiro.pedirParaTrocarGas(atendente);
