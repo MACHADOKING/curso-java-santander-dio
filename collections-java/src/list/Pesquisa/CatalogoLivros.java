@@ -53,6 +53,7 @@ public class CatalogoLivros {
         return livroPorTitulo;
     }
 
+    /*
     public static void main(String[] args) {
         CatalogoLivros catalogoLivros = new CatalogoLivros();
         catalogoLivros.adicionarLivro("Microsserviços Prontos Para a Produção", "Susan J. Fowler", 2017);
@@ -78,4 +79,5 @@ public class CatalogoLivros {
         // Exibindo livros por título (caso em que não há livros com o título especificado)
         System.out.println(catalogoLivros.pesquisarPorTitulo("Título Inexistente"));
     }
+    */
 }
