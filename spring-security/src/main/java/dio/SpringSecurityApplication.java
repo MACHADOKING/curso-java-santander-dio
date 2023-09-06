@@ -1,4 +1,4 @@
-package dio.springsecurity;
+package dio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
