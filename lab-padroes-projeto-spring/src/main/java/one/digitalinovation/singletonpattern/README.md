@@ -63,7 +63,7 @@ Siga os passos abaixo para testar o aplicativo:
 Clone o repositório deste projeto em seu ambiente local.
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/MACHADOKING/curso-java-santander-dio/tree/main/lab-padroes-projeto-spring.git
 ```
 
 **Passo 2: Execute o aplicativo Spring Boot**
